@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewMatchActivity">
+    <!--main lauout-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="50sp"
+                android:text="New Match"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Match Name"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                        <EditText
+                            android:id="@+id/match_Name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Match Date"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/match_Date"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="DD"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="/"
+                    android:textSize="40sp"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/match_Month"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="MM"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:text="/"
+                    android:textSize="40sp"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/match_Year"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="YY"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Batting Team Name"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <EditText
+                    android:id="@+id/team1_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bowling Team Name"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <EditText
+                    android:id="@+id/team2_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Total Over"
+                    android:textSize="23sp"
+                    android:textAlignment="center"
+
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <EditText
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:id="@+id/total_Over"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:padding="15dp">
+                <LinearLayout
+                   android:id="@+id/save_Match"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="SAVE"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

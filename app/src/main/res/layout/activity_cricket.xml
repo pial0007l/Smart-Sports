@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cricket"
+    android:background="#17202A">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Main holder-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            >
+            <!--Cricket-->
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cricket"
+                    android:textColor="#ffffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <!--One Day-->
+            <LinearLayout
+                android:id="@+id/oneday"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape3"
+                >
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One Day"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#ffffff"
+                    android:textSize="35sp"
+
+                    android:textAlignment="center"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <!--T20-->
+            <LinearLayout
+                android:id="@+id/t20"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape3"
+                >
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="T20"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#ffffff"
+                    android:textSize="35sp"
+                    android:textAlignment="center"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <!--series-->
+            <LinearLayout
+                android:id="@+id/series"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape3"
+                >
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Series"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#ffffff"
+                    android:textSize="35sp"
+                    android:textAlignment="center"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            <!--tournament-->
+            <LinearLayout
+                android:id="@+id/tournament"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape3"
+                >
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tournament"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#ffffff"
+                    android:textSize="35sp"
+                    android:textAlignment="center"/>
+
+
+
+
+
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

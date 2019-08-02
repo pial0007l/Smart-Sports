@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectScoreBoard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                        <LinearLayout
+                            android:id="@+id/team_1_scoreBoard"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight=".2"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="10dp">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:textSize="30sp"
+                                    android:gravity="center"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold"
+                                    android:text="Team 1 Score Board"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/team_2_scoreBoard"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight=".2"
+                            android:background="@drawable/shape2"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:textSize="30sp"
+                                    android:gravity="center"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold"
+                                    android:text="Team 2 Score Board"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp">
+
+
+                        </LinearLayout>
+
+
+
+
+                </LinearLayout>
+        </LinearLayout>
+</android.support.constraint.ConstraintLayout>
